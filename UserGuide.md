@@ -14,7 +14,9 @@ Chatbot-v1 uses 3 different git projects together that may be still under active
 
 ### Changing the Model
 
-1. Navigate to ``
+1. Navigate to `chatbot-v1/private-gpt/settings-ollama.yaml`
+
+2. Change 
 
 ### Changing the Context Window
 
