@@ -1,4 +1,4 @@
-# Chatbot-v1
+# Chatbot-v1 README
 
 ![image](UI.png)
 
@@ -63,3 +63,13 @@ You can now upload documents and begin querying!
 2. Delete the `chatbot-v1` directory
 
 3. Uninstall [Ollama](https://github.com/ollama/ollama/blob/main/docs/linux.md), [Conda](https://docs.anaconda.com/anaconda/install/uninstall/) and [Poetry](https://python-poetry.org/docs/) dependencies (if required)
+
+## Guides
+
+## Known Issues
+
+1. **Private-GPT throws an error when a query is sent when there are no ingested files.**
+    
+    See this [github issue](https://github.com/ollama/ollama/issues/3052). Currently chatbot-v1 does not support chat without documents, but this will be fixed soon. In the meantime, queries submitted when no documents are ingested do not generate any response.
+
+Do [let me know](https://github.com/JerryO3/chatbot-v1/issues) if there are any other issues/bugs, I'll try my best to take a look.
