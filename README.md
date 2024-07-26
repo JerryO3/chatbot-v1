@@ -64,11 +64,21 @@ You can now upload documents and begin querying!
 
 3. Uninstall [Ollama](https://github.com/ollama/ollama/blob/main/docs/linux.md), [Conda](https://docs.anaconda.com/anaconda/install/uninstall/) and [Poetry](https://python-poetry.org/docs/) dependencies (if required)
 
-## Guides
+## Guides/Docs
+
+### Guides
 
 * For users, do take a quick look at the [User Guide](https://github.com/JerryO3/chatbot-v1/blob/master/UserGuide.md) for more instructions on usage and model configuration.
 
 * For developers, feel free to take a look at the [Developer Guide](https://github.com/JerryO3/chatbot-v1/blob/master/DeveloperGuide.md) for documentation for your reference.
+
+### Docs
+
+* [PrivateGPT Docs](https://docs.privategpt.dev/overview/welcome/introduction) (For back-end)
+
+* [React-Chatbot-Kit Docs](https://fredrikoseberg.github.io/react-chatbot-kit-docs/) (For front-end)
+
+* [FastAPI Docs](https://fastapi.tiangolo.com/) (For router)
 
 ## Known Issues
 
