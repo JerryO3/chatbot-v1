@@ -8,8 +8,8 @@ Chatbot-v1 is an offline RAG front-end wrapper of [PrivateGPT](https://github.co
 
 1. [PrivateGPT](https://github.com/zylon-ai/private-gpt)
 
-    > PrivateGPT is a production-ready AI project that allows you to ask questions about your documents using the power of Large Language Models (LLMs), even in scenarios without an Internet connection. 100% private, no data leaves your execution environment at any point. 
-    
+    > PrivateGPT is a production-ready AI project that allows you to ask questions about your documents using the power of Large Language Models (LLMs), even in scenarios without an Internet connection. 100% private, no data leaves your execution environment at any point.
+
     -- PrivateGPT readme
 
     PrivateGPT in Chatbot-v1 is configured to use ollama, and can therefore use the latest models available on their [model library](https://ollama.com/library). The default model loaded is [mistral](https://ollama.com/library/mistral), but can be configured to any downloaded model on your ollama setup.
@@ -66,10 +66,14 @@ You can now upload documents and begin querying!
 
 ## Guides
 
+* For users, do take a quick look at the [User Guide](https://github.com/JerryO3/chatbot-v1/blob/master/UserGuide.md) for more instructions on usage and model configuration.
+
+* For developers, feel free to take a look at the [Developer Guide](https://github.com/JerryO3/chatbot-v1/blob/master/DeveloperGuide.md) for documentation for your reference.
+
 ## Known Issues
 
 1. **Private-GPT throws an error when a query is sent when there are no ingested files.**
-    
+
     See this [github issue](https://github.com/ollama/ollama/issues/3052). Currently chatbot-v1 does not support chat without documents, but this will be fixed soon. In the meantime, queries submitted when no documents are ingested do not generate any response.
 
 Do [let me know](https://github.com/JerryO3/chatbot-v1/issues) if there are any other issues/bugs, I'll try my best to take a look.
