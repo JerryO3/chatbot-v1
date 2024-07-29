@@ -27,7 +27,8 @@ trap cleanup SIGINT
 
 # Initialize environment
 conda activate Private-GPT
-pip install pymupdf4llm
+
+export PGPT_PROFILES=ollama
 
 # Start PGPT in the background
 PRIVATEGPTDIR=./private-gpt
