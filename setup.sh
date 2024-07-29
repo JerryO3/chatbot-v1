@@ -41,6 +41,11 @@ if ! { ollama list | grep 'mistral'; } >/dev/null 2>&1; then
 	ollama pull mistral 
 fi
 
+if ! { ollama list | grep 'nomic'; } >/dev/null 2>&1; then
+	echo "Download default embedding model: Nomic"
+	ollama pull nomic-embed-text
+fi
+
 conda activate
 
 if ! { conda env list | grep 'Private-GPT'; } >/dev/null 2>&1; then
@@ -54,5 +59,7 @@ cd private-gpt
 export PATH="$HOME/.local/bin:$PATH"
 poetry install --extras "ui llms-ollama embeddings-ollama vector-stores-qdrant"
 export PGPT_PROFILES=ollama
+
+pip install -r ../requirements.txt
 
 cd ..
