@@ -5,7 +5,7 @@ then
     echo "$PRIVATEGPTDIR directory exists."
 else
 	echo "$PRIVATEGPTDIR directory does not exist."
-	git clone https://github.com/zylon-ai/private-gpt.git
+	git clone https://github.com/JerryO3/private-gpt.git
 fi
 
 PROXYSERVERDIR=./chatbot-proxy-server
