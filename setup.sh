@@ -34,9 +34,11 @@ if ! { ollama -v | grep 'ollama version is'; } >/dev/null 2>&1; then
 	curl -fsSL https://ollama.com/install.sh | sh
 fi
 
+ollama serve &
+
 if ! { ollama list | grep 'mistral'; } >/dev/null 2>&1; then
 	echo "Download default model: Mistral"
-	ollama pull mistral
+	ollama pull mistral 
 fi
 
 conda activate

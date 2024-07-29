@@ -24,6 +24,8 @@ Chatbot-v1 is an offline RAG front-end wrapper of [PrivateGPT](https://github.co
 
 * Must have `conda` installed. [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) is used for to create the python environment.
 
+* Must have Node installed. [npm](https://nodejs.org/en/download/package-manager) is needed to install vite.
+
 ### Setup Instructions
 
 1. Clone this repo to any directory:
@@ -85,5 +87,9 @@ You can now upload documents and begin querying!
 1. **Private-GPT throws an error when a query is sent when there are no ingested files.**
 
     See this [github issue](https://github.com/ollama/ollama/issues/3052). Currently chatbot-v1 does not support chat without documents, but this will be fixed soon. In the meantime, queries submitted when no documents are ingested do not generate any response.
+
+2. **Cannot access gated repo for url ... You must be authenticated to access it.**
+
+    See this [github issue](https://github.com/zylon-ai/private-gpt/issues/1861). To get access to the model, you additionally will need to request for model access on your Huggingface account.
 
 Do [let me know](https://github.com/JerryO3/chatbot-v1/issues) if there are any other issues/bugs, I'll try my best to take a look.
