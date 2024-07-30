@@ -38,7 +38,7 @@ The UI comprises 2 major React Components:
 
     2. `UploadComponent` comprises a [file input HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file) and a `Upload Files` button that uploads all files in the file input HTML element.
 
-2. `Chatbot` provides a user interface to interact with the model. It is based on [my fork](https://github.com/JerryO3/react-chatbot-kit) of the [original react-chatbot-kit](https://github.com/FredrikOseberg/react-chatbot-kit) and has been packaged as a local tarball file and included as a dependency in the [front-end](https://github.com/JerryO3/my-ai-chatbot-frontend) for convenience. Please refer directly to the [original documentation](https://fredrikoseberg.github.io/react-chatbot-kit-docs/) which is more comprehensive.
+2. `Chatbot` provides a user interface to interact with the model. It is based on [my fork](https://github.com/JerryO3/react-chatbot-kit) of the [original react-chatbot-kit](https://github.com/FredrikOseberg/react-chatbot-kit) and has been packaged as a [local tarball file](https://github.com/JerryO3/my-ai-chatbot-frontend/blob/master/react-chatbot-kit-2.2.0.tgz) and included as a dependency in the [front-end](https://github.com/JerryO3/my-ai-chatbot-frontend) for convenience. Please refer directly to the [original documentation](https://fredrikoseberg.github.io/react-chatbot-kit-docs/) which is more comprehensive.
 
 ### Proxy Server
 
