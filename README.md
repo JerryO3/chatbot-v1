@@ -1,6 +1,6 @@
 # Chatbot-v1 README
 
-![image](UI.png)
+![image](./images/UI.png)
 
 ## What is Chatbot-v1?
 
