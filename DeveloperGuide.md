@@ -20,7 +20,7 @@ Using a simple [proxy server](https://github.com/JerryO3/chatbot-proxy-server.gi
 
 2. Processes responses from the PrivateGPT server into an appropriate format for the front-end.
 
-![image](Architecture-Diagram.png)
+![image](./images/Architecture-Diagram.png)
 
 This architecture allows for preprocessing of documents prior to ingestion to improve the effectiveness of document parsing by PrivateGPT, and accomodates for changes at the back-end so that no changes need to affect the UI directly; response processing can be performed by the proxy server in python instead of in the React front-end in Typescript. This ensures that minimal processing is done by the webpage.
 
@@ -44,7 +44,7 @@ The proxy server is responsible for routing requests sent from the front-end to 
 
 For example, chatbot-v1 currently preprocesses all pdfs into markdown using [pymu4pdfllm](https://pymupdf4llm.readthedocs.io/en/latest/) so that tables in pdf documents can be parsed.
 
-![image](Front-end-routing.png)
+![image](./images/Front-end-routing.png)
 
 The proxy server currently only has 4 endpoints:
 
@@ -58,7 +58,7 @@ The proxy server currently only has 4 endpoints:
 
 Below shows the routing between the proxy server and the PrivateGPT server.
 
-![image](Proxy-server-routing.png)
+![image](./images/Proxy-server-routing.png)
 
 ### PrivateGPT
 
