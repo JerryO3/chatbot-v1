@@ -30,6 +30,8 @@ The UI is a React App built using vite. It makes calls to endpoints exposed by t
 
 The UI comprises 2 major React Components:
 
+![image](./images/UI-components.png)
+
 1. `FileContainer` provides a user interface to upload and delete files, as well as displays currently uploaded files. `FileContainer` itself comprises 2 components: `FileButton` and `UploadComponent`:
 
     1. `FileButton` indicates to users that this file has been uploaded to the server. Each `FileButton` corresponds to one uploaded file. Note that each file may be split into multiple `documents` by the splitter in PrivateGPT, and deleting files entail deleting all `documents` whose document ids are associated with that file.
