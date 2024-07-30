@@ -8,7 +8,7 @@ Read this guide to
 
 ## Using Chatbot-v1
 
-![image](UI-guide.png)
+![image](./images/UI-guide.png)
 
 * The **File Panel** on the left can be used to:
   * Upload Files (individual or multiple files are acceptable)
