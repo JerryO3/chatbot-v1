@@ -73,3 +73,19 @@ Chatbot-v1 does not make any changes to the PrivateGPT repo. However, configurat
 Since this project is still under active development, the goal of Chatbot-v1 is to accomodate for the latest changes on PrivateGPT, which is why directly modifying this component is avoided.
 
 See the PrivateGPT Documentation [here](https://docs.privategpt.dev/overview/welcome/introduction).
+
+#### Ollama
+
+Chatbot-v1 uses PrivateGPT powered by Ollama. This allows users to easily pull any available model on the Ollama model library for use. In addition, after setting up a HuggingFace account, any open source model in the `.gguf` format can be run in Ollama.
+
+See below links on converting a `.gguf` model into a model runnable on Ollama using `makefile`.
+
+1. [Converting a model](https://github.com/ggerganov/llama.cpp/discussions/2948) to `.gguf` format (skip this step if your model is already in `.gguf`)
+
+2. [Importing a model](https://github.com/ollama/ollama/blob/main/docs/import.md) to Ollama
+
+Other relevant documentation:
+
+* [Ollama documentation](https://github.com/ollama/ollama/blob/main/docs/README.md)
+
+* [Ollama `Modelfile` documentation](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
