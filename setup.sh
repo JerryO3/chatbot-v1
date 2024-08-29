@@ -58,7 +58,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 cd private-gpt
 export PATH="$HOME/.local/bin:$PATH"
 
-pip install -r ../requirements.txt
+pip install -r requirements.txt
 poetry install --extras "ui llms-ollama embeddings-ollama vector-stores-qdrant"
 
 cd ..
