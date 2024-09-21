@@ -69,7 +69,7 @@ In general, you can expect to see improved performance with a more powerful mode
     to
 
     ```(python)
-    node_parser = SentenceWindowNodeParser.(window_size = <your desired window size>)
+    node_parser = SentenceWindowNodeParser(window_size = <your desired window size>)
     ```
 
     where `<your desired window size>` is an integer referring to the number of sentences enclosing the retrieved chunk of reference text. [See this github issue](https://github.com/zylon-ai/private-gpt/issues/1917) for more information.
